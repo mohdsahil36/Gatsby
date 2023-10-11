@@ -15,7 +15,7 @@ export default function Home({data}) {
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
           <p>UX designer & web developer based in Manchester.</p>
-          <Link className={styles.btn} to="/projects">My Portfolio Projects</Link>
+          <Link className={styles.btn} to="/projects/projects">My Portfolio Projects</Link>
           <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} alt="banner"/>
         </div>
       </section>
